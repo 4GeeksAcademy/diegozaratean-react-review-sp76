@@ -7,7 +7,9 @@ import "../styles/index.css";
 
 //import your own components
 import Cart from "./component/cart.jsx";
+import Form from "./component/form.jsx";
+import Videogames from "./component/videogames.jsx";
 
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Cart cantidad='0' />);
+ReactDOM.createRoot(document.getElementById('app')).render(<Videogames />);
 
