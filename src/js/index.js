@@ -11,7 +11,9 @@ import Form from "./component/form.jsx";
 import Videogames from "./component/videogames.jsx";
 import Onkey from "./component/onkey.jsx";
 import Onsub from "./component/onsub.jsx";
+import Counter from "./component/counter.jsx";
+import Getdata from "./component/getdata.jsx";
 
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Onsub />);
+ReactDOM.createRoot(document.getElementById('app')).render(<Getdata />);
 
