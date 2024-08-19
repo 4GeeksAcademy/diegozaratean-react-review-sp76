@@ -13,7 +13,8 @@ import Onkey from "./component/onkey.jsx";
 import Onsub from "./component/onsub.jsx";
 import Counter from "./component/counter.jsx";
 import Getdata from "./component/getdata.jsx";
+import Test from "./component/test.jsx";
 
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Getdata />);
+ReactDOM.createRoot(document.getElementById('app')).render(<Test />);
 
